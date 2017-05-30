@@ -1,0 +1,91 @@
+{
+  "name": "heroku2heroku",
+  "description": "Cloud Commander & Heroku-cli sample.",
+  "repository": "https://github.com/ranran9/heroku2heroku",
+  "keywords": [
+    "console",
+    "editor",
+    "file",
+    "file manager",
+    "folder",
+    "orthodox",
+    "heroku"
+  ],
+  "env": {
+      "CLOUDCMD_AUTH": {
+          "description": "enable http authentication",
+          "value": "true",
+          "required": false
+      },
+      "CLOUDCMD_USER_ID": {
+          "description": "http authentication login user id",
+          "value": "root",
+          "required": false
+      },
+      "CLOUDCMD_PASS": {
+          "description": "http authentication login password",
+          "value": "toor",
+          "required": false
+      },
+      "GIT_AUTHOR_NAME": {
+          "description": "git author name",
+          "value": "",
+          "required": false
+      },
+      "GIT_COMMITTER_NAME": {
+          "description": "git commiter name",
+          "value": "",
+          "required": false
+      },
+      "EMAIL": {
+          "description": "git email",
+          "value": "",
+          "required": false
+      },
+      "NETRC_MACHINE_1": {
+          "description": "machine1 value of .netrc",
+          "value": "",
+          "required": false
+      },
+      "NETRC_LOGIN_1": {
+          "description": "login1 value of .netrc",
+          "value": "",
+          "required": false
+      },
+      "NETRC_PASSWORD_1": {
+          "description": "password1 value of .netrc",
+          "value": "",
+          "required": false
+      },
+      "NETRC_MACHINE_2": {
+          "description": "machine2 value of .netrc",
+          "value": "",
+          "required": false
+      },
+      "NETRC_LOGIN_2": {
+          "description": "login2 value of .netrc",
+          "value": "",
+          "required": false
+      },
+      "NETRC_PASSWORD_2": {
+          "description": "password2 value of .netrc",
+          "value": "",
+          "required": false
+      },
+      "NETRC_MACHINE_3": {
+          "description": "machine3 value of .netrc",
+          "value": "",
+          "required": false
+      },
+      "NETRC_LOGIN_3": {
+          "description": "login3 value of .netrc",
+          "value": "",
+          "required": false
+      },
+      "NETRC_PASSWORD_3": {
+          "description": "password3 value of .netrc",
+          "value": "",
+          "required": false
+      }
+  }
+}

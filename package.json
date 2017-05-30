@@ -1,0 +1,26 @@
+{
+  "name": "heroku_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cloudcmd": "^6.14.4",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "sh -x ./postbuild.sh"
+  },
+  "keywords": [
+    "heroku",
+    "ci"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "author": "ranran",
+  "license": "MIT"
+}
